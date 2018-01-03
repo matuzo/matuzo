@@ -1,0 +1,16 @@
+{
+  "name": "matuzo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "content": "for file in content/*; do contentful-export --config ${file}; done",
+    "build": "eleventy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eleventy": "^0.2.0"
+  }
+}

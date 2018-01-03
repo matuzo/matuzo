@@ -1,0 +1,35 @@
+{% extends "base.njk" %}
+
+{% block sitetitle %}
+  Manuel Matuzovic
+{% endblock %}
+
+{% block pagetitle %}
+  Manuel Matuzovics Website
+{% endblock %}
+
+{% block content %}
+  <h2>Recent blog posts</h2>
+  <ul>
+    {% for post in posts.entries %}
+      <li>
+        <a href="blog/{{ post.fields.slug['en-US']}}">
+          {{ post.fields.title['en-US']}}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h2>Pages</h2>
+
+  <ul>
+    {% for page in pages.entries %}
+      <li>
+        <a href="{{ page.fields.slug['en-US'] }}">
+          {{ page.fields.title['en-US'] }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+{% endblock %}

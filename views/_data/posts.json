@@ -1,0 +1,1597 @@
+{
+  "entries": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "7HjGEp7lQsQcmyuUmI26CO",
+        "type": "Entry",
+        "createdAt": "2017-08-21T10:56:23.378Z",
+        "updatedAt": "2017-08-23T20:15:53.726Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 81,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 80,
+        "firstPublishedAt": "2017-08-21T11:01:49.720Z",
+        "publishedAt": "2017-08-23T20:15:53.677Z",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "2wKn6yEnZewu2SCCkus4as"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Writing HTML with accessibility in mind"
+        },
+        "slug": {
+          "en-US": "writing-html-with-accessibility-in-mind"
+        },
+        "date": {
+          "en-US": "2016-12-13"
+        },
+        "author": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5hoRW60IKQm4MaU22Yk8Gw"
+              }
+            }
+          ]
+        },
+        "teaser": {
+          "en-US": "An introduction to web accessibility. Tips on how to improve your markup and provide users with more and betters ways to navigate and interact with your site."
+        },
+        "body": {
+          "en-US": "<div class=\"post__intro\">\n  An introduction to web accessibility. Tips on how to improve your markup and provide users with more and betters ways to navigate and interact with your site.\n</div>\n\nIf you don’t want to read the preface, jump right to the tips.\n\n## Personal development and change in perspective\n\nWhen I made my first website my highest priority was to get content online. I didn’t care much about usability, accessibility, performance, UX or browser compatibility. Why would I? I made a robust table based layout and I offered a 800×600 and a 1024×768 version of my site. On top of that, I informed users that the website was optimized for Internet Explorer 5.\n\n![1*IKUahO-N2soQ5GCyhe3NfA](//images.contentful.com/zvi026ixizar/5QTpCw1LdC0IoSuoGGUKYs/617daa6e0ae2f4edae0515202d6a9fc4/1_IKUahO-N2soQ5GCyhe3NfA.png)\n\nThis was of course before I started to work professionally as a web designer and my perspective in what was important changed. \nYears later, instead of dictating the requirements for my websites, I started to optimize them for all major browsers. \nBeginning with [Ethan Marcotte’s game changing article](alistapart.com/article/responsive-web-design) I started caring about devices as well.\nMaking websites for all kinds or browsers and devices is great, but pretty much useless if the websites are too slow. So I learned everything about critical CSS, speed indices, font loading, CDNs and so on."
+        },
+        "category": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5ns6MYQhfqUSICy4ScQqGm"
+              }
+            }
+          ]
+        },
+        "tags": {
+          "en-US": [
+            "a11y",
+            "html"
+          ]
+        },
+        "comments": {
+          "en-US": true
+        },
+        "archive": {
+          "en-US": false
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "2QZRozRSEUgEsyw26iCMUO",
+        "type": "Entry",
+        "createdAt": "2017-08-23T19:26:37.983Z",
+        "updatedAt": "2017-08-23T20:15:23.106Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 42,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 41,
+        "firstPublishedAt": "2017-08-23T19:30:25.430Z",
+        "publishedAt": "2017-08-23T20:15:23.061Z",
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "2wKn6yEnZewu2SCCkus4as"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Progressively Enhancing CSS Layout: From Floats To Flexbox To Grid"
+        },
+        "slug": {
+          "en-US": "progressively-enhancing-css-layout-from-floats-to-flexbox-to-grid"
+        },
+        "date": {
+          "en-US": "2017-07-24"
+        },
+        "author": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5hoRW60IKQm4MaU22Yk8Gw"
+              }
+            }
+          ]
+        },
+        "featuredImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "55grMXjQKkYWOSksKc0IeY"
+            }
+          }
+        },
+        "teaser": {
+          "en-US": "Earlier this year, support for CSS grid layout landed in most major desktop browsers. Naturally, the specification is one of the hot topics at meet-ups and conferences. After having some conversations about grid and progressive enhancement, I believe that there’s a good amount of uncertainty about using it. I heard some quite interesting questions and statements, which I want to address in this post."
+        },
+        "category": {
+          "en-US": [
+            {
+              "sys": {
+                "type": "Link",
+                "linkType": "Entry",
+                "id": "5ns6MYQhfqUSICy4ScQqGm"
+              }
+            }
+          ]
+        },
+        "tags": {
+          "en-US": [
+            "CSS",
+            "progressive enhancement",
+            "grid"
+          ]
+        },
+        "publication": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Entry",
+              "id": "531M9fD27Sgs8cUWe4sQK8"
+            }
+          }
+        },
+        "externalLink": {
+          "en-US": "https://www.smashingmagazine.com/2017/07/enhancing-css-layout-floats-flexbox-grid/"
+        },
+        "comments": {
+          "en-US": false
+        },
+        "archive": {
+          "en-US": false
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "5QTpCw1LdC0IoSuoGGUKYs",
+        "type": "Asset",
+        "createdAt": "2017-08-21T12:43:33.635Z",
+        "updatedAt": "2017-08-21T12:44:45.720Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 5,
+        "firstPublishedAt": "2017-08-21T12:44:45.703Z",
+        "publishedAt": "2017-08-21T12:44:45.703Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "1*IKUahO-N2soQ5GCyhe3NfA"
+        },
+        "description": {
+          "en-US": "Screenshots of the old finance.senate.gov website informing users that the website is optimized for Netscape and Internet Explorer with an 800×600 screen resolution."
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/5QTpCw1LdC0IoSuoGGUKYs/617daa6e0ae2f4edae0515202d6a9fc4/1_IKUahO-N2soQ5GCyhe3NfA.png",
+            "details": {
+              "size": 37798,
+              "image": {
+                "width": 600,
+                "height": 326
+              }
+            },
+            "fileName": "1*IKUahO-N2soQ5GCyhe3NfA.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "1ysipurYv6Y60g8AeAcwkq",
+        "type": "Asset",
+        "createdAt": "2017-08-23T17:36:27.502Z",
+        "updatedAt": "2017-08-23T17:36:49.856Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 9,
+        "firstPublishedAt": "2017-08-23T17:36:49.832Z",
+        "publishedAt": "2017-08-23T17:36:49.833Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Smashing Magazine Logo"
+        },
+        "description": {
+          "en-US": "Smashing Magazine Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/1ysipurYv6Y60g8AeAcwkq/e29f753ad4c3e70afa268d97cb8a529c/Smashing_Magazine_Logo.svg",
+            "details": {
+              "size": 30785,
+              "image": {
+                "width": 260,
+                "height": 68
+              }
+            },
+            "fileName": "Smashing Magazine Logo.svg",
+            "contentType": "image/svg+xml"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "55grMXjQKkYWOSksKc0IeY",
+        "type": "Asset",
+        "createdAt": "2017-08-23T19:27:43.240Z",
+        "updatedAt": "2017-08-23T19:28:38.670Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 18,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 17,
+        "firstPublishedAt": "2017-08-23T19:28:38.652Z",
+        "publishedAt": "2017-08-23T19:28:38.652Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "holy-grid pptwcu c scale w 2437"
+        },
+        "description": {
+          "en-US": "Progressive website demo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/55grMXjQKkYWOSksKc0IeY/6f5695fa85e3c80c75910d3d1f19176f/holy-grid_pptwcu_c_scale_w_2437.png",
+            "details": {
+              "size": 642314,
+              "image": {
+                "width": 2437,
+                "height": 2271
+              }
+            },
+            "fileName": "holy-grid_pptwcu_c_scale_w_2437.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "1UXsXrjHEkiKgYo0a406gq",
+        "type": "Asset",
+        "createdAt": "2017-08-24T05:52:54.109Z",
+        "updatedAt": "2017-08-24T05:53:51.382Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 13,
+        "firstPublishedAt": "2017-08-24T05:53:51.360Z",
+        "publishedAt": "2017-08-24T05:53:51.360Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "webclerks"
+        },
+        "description": {
+          "en-US": "webclerks Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/1UXsXrjHEkiKgYo0a406gq/6c9bf1557b99c09518425e38bc740c5e/Icon.png",
+            "details": {
+              "size": 12258,
+              "image": {
+                "width": 500,
+                "height": 500
+              }
+            },
+            "fileName": "Icon.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "EeS4uhE5FIe0ysui2o6Oe",
+        "type": "Asset",
+        "createdAt": "2017-08-24T05:59:26.794Z",
+        "updatedAt": "2017-08-24T06:03:16.280Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 29,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 28,
+        "firstPublishedAt": "2017-08-24T06:03:16.263Z",
+        "publishedAt": "2017-08-24T06:03:16.263Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "webclerks1"
+        },
+        "description": {
+          "en-US": "Manuel Matuzovic speaking at the 1st webclerks meetup"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/EeS4uhE5FIe0ysui2o6Oe/29e9e7df7e6e6d9ccc928101904cdae1/highres_448452109.jpeg",
+            "details": {
+              "size": 121259,
+              "image": {
+                "width": 1200,
+                "height": 800
+              }
+            },
+            "fileName": "highres_448452109.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "2pmcnOJv0ESuCsEyeASwqy",
+        "type": "Asset",
+        "createdAt": "2017-08-24T06:10:30.929Z",
+        "updatedAt": "2017-08-24T06:11:45.204Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 10,
+        "firstPublishedAt": "2017-08-24T06:11:45.137Z",
+        "publishedAt": "2017-08-24T06:11:45.137Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "CodePen Logo"
+        },
+        "description": {
+          "en-US": "CodePen Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/2pmcnOJv0ESuCsEyeASwqy/043a2992fcf4da0f4503e42066884de0/Button-Fill-Black-Large.png",
+            "details": {
+              "size": 9677,
+              "image": {
+                "width": 600,
+                "height": 600
+              }
+            },
+            "fileName": "Button-Fill-Black-Large.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "UeHWILpcQgWa6aY08KsmU",
+        "type": "Asset",
+        "createdAt": "2017-08-24T06:12:54.047Z",
+        "updatedAt": "2017-08-24T06:14:03.027Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 13,
+        "firstPublishedAt": "2017-08-24T06:14:02.997Z",
+        "publishedAt": "2017-08-24T06:14:02.997Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "ViennaJs Logo"
+        },
+        "description": {
+          "en-US": "ViennaJs Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/UeHWILpcQgWa6aY08KsmU/4b8fb30529f70a47b483edcd6b7a5b69/global_200076032.jpeg",
+            "details": {
+              "size": 14537,
+              "image": {
+                "width": 180,
+                "height": 180
+              }
+            },
+            "fileName": "global_200076032.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "357V689F6ESaiAu6MeWGsA",
+        "type": "Asset",
+        "createdAt": "2017-08-24T06:15:02.568Z",
+        "updatedAt": "2017-08-24T06:15:32.088Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 16,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 15,
+        "firstPublishedAt": "2017-08-24T06:15:32.069Z",
+        "publishedAt": "2017-08-24T06:15:32.069Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "FreeCodeCamp Vienna Logo"
+        },
+        "description": {
+          "en-US": "FreeCodeCamp Vienna Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/357V689F6ESaiAu6MeWGsA/75dfc524bea24fb3c8c4cbac940eb272/global_458999035.jpeg",
+            "details": {
+              "size": 10200,
+              "image": {
+                "width": 180,
+                "height": 141
+              }
+            },
+            "fileName": "global_458999035.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "2mrsvqz8xSS2giQqqoq2kC",
+        "type": "Asset",
+        "createdAt": "2017-08-24T06:16:20.524Z",
+        "updatedAt": "2017-08-24T06:17:49.475Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 11,
+        "firstPublishedAt": "2017-08-24T06:17:49.461Z",
+        "publishedAt": "2017-08-24T06:17:49.461Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "pitercss Logo"
+        },
+        "description": {
+          "en-US": "pitercss Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/2mrsvqz8xSS2giQqqoq2kC/9a919cd9ac7bfbe26ee51dc6f56effda/uJKBe3Lc_400x400.jpg",
+            "details": {
+              "size": 5667,
+              "image": {
+                "width": 400,
+                "height": 400
+              }
+            },
+            "fileName": "uJKBe3Lc_400x400.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "1yz9D80fXKEauyYSU2yaui",
+        "type": "Asset",
+        "createdAt": "2017-08-24T06:19:16.599Z",
+        "updatedAt": "2017-08-24T06:19:33.002Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 13,
+        "firstPublishedAt": "2017-08-24T06:19:32.979Z",
+        "publishedAt": "2017-08-24T06:19:32.979Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Wordcamp Vienna Logo"
+        },
+        "description": {
+          "en-US": "Wordcamp Vienna Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/1yz9D80fXKEauyYSU2yaui/08890fac25f558b2da4de34126efdf61/wpvienna-logo.png",
+            "details": {
+              "size": 12302,
+              "image": {
+                "width": 213,
+                "height": 213
+              }
+            },
+            "fileName": "wpvienna-logo.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "2zOHqul6Mk8ACAwUUeIoqU",
+        "type": "Asset",
+        "createdAt": "2017-08-24T06:30:42.220Z",
+        "updatedAt": "2017-08-24T06:31:06.158Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 2,
+        "firstPublishedAt": "2017-08-24T06:31:06.077Z",
+        "publishedAt": "2017-08-24T06:31:06.077Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "IMG 20170616 104207"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/2zOHqul6Mk8ACAwUUeIoqU/acf83835b8f8a318c2cf01880c7775e6/IMG_20170616_104207.jpg",
+            "details": {
+              "size": 2182258,
+              "image": {
+                "width": 2448,
+                "height": 3264
+              }
+            },
+            "fileName": "IMG_20170616_104207.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "4OJ2a38wcwOoug2QIKeu00",
+        "type": "Asset",
+        "createdAt": "2017-08-24T06:30:42.236Z",
+        "updatedAt": "2017-08-24T06:31:05.948Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 2,
+        "firstPublishedAt": "2017-08-24T06:31:05.931Z",
+        "publishedAt": "2017-08-24T06:31:05.931Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "19250461 453760458335795 5513437845232761593 o"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/4OJ2a38wcwOoug2QIKeu00/2227c90ed6d1ef068b87410be2e0d5c8/19250461_453760458335795_5513437845232761593_o.jpg",
+            "details": {
+              "size": 344468,
+              "image": {
+                "width": 2048,
+                "height": 1365
+              }
+            },
+            "fileName": "19250461_453760458335795_5513437845232761593_o.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "8uVX4jm0OQEGqOs2I8uEe",
+        "type": "Asset",
+        "createdAt": "2017-08-24T06:30:42.264Z",
+        "updatedAt": "2017-08-24T06:31:06.155Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 2,
+        "firstPublishedAt": "2017-08-24T06:31:05.930Z",
+        "publishedAt": "2017-08-24T06:31:05.930Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "IMG 20170616 105517"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/8uVX4jm0OQEGqOs2I8uEe/2d1f397d8ebfff3e59400649c5203e72/IMG_20170616_105517.jpg",
+            "details": {
+              "size": 2293107,
+              "image": {
+                "width": 2448,
+                "height": 3264
+              }
+            },
+            "fileName": "IMG_20170616_105517.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "3Y6gfZIgoMs4ikEgoU8oqG",
+        "type": "Asset",
+        "createdAt": "2017-08-24T06:30:42.319Z",
+        "updatedAt": "2017-08-24T06:31:06.160Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 3,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 2,
+        "firstPublishedAt": "2017-08-24T06:31:06.078Z",
+        "publishedAt": "2017-08-24T06:31:06.078Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "IMG 20170616 183935"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/3Y6gfZIgoMs4ikEgoU8oqG/b9f8a538fcb658dc976b505f834654e9/IMG_20170616_183935.jpg",
+            "details": {
+              "size": 5374493,
+              "image": {
+                "width": 4032,
+                "height": 3024
+              }
+            },
+            "fileName": "IMG_20170616_183935.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "2FeAuKkwUoiIAWoyc4MS2e",
+        "type": "Asset",
+        "createdAt": "2017-08-25T14:26:32.555Z",
+        "updatedAt": "2017-08-25T14:26:50.923Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 12,
+        "firstPublishedAt": "2017-08-25T14:26:50.898Z",
+        "publishedAt": "2017-08-25T14:26:50.898Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "CSS-Minsk-JS Logo"
+        },
+        "description": {
+          "en-US": "CSS-Minsk-JS Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/2FeAuKkwUoiIAWoyc4MS2e/86f2dd56ac06e2f7c8b3ee813713851a/logo.svg",
+            "details": {
+              "size": 13306,
+              "image": {
+                "width": 556,
+                "height": 379
+              }
+            },
+            "fileName": "logo.svg",
+            "contentType": "image/svg+xml"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "6X4bcei7sIag2CUMyeQ4EM",
+        "type": "Asset",
+        "createdAt": "2017-08-28T14:51:35.734Z",
+        "updatedAt": "2017-08-28T14:51:58.071Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 14,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 13,
+        "firstPublishedAt": "2017-08-28T14:51:58.052Z",
+        "publishedAt": "2017-08-28T14:51:58.052Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "SAE Alumni Logo"
+        },
+        "description": {
+          "en-US": "SAE Alumni Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/6X4bcei7sIag2CUMyeQ4EM/6e71ef2ccadcae41c4b9bc88e7e2452a/Screen_Shot_2017-08-28_at_16.51.36.png",
+            "details": {
+              "size": 12205,
+              "image": {
+                "width": 139,
+                "height": 97
+              }
+            },
+            "fileName": "Screen Shot 2017-08-28 at 16.51.36.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "3uNp4IaSaswuC60UQaUSq6",
+        "type": "Asset",
+        "createdAt": "2017-08-28T14:54:15.232Z",
+        "updatedAt": "2017-08-28T14:54:37.401Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 8,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 7,
+        "firstPublishedAt": "2017-08-28T14:54:37.380Z",
+        "publishedAt": "2017-08-28T14:54:37.380Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "SAE Logo"
+        },
+        "description": {
+          "en-US": "SAE Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/3uNp4IaSaswuC60UQaUSq6/b229c058ae52377de8adbd13ee565d9e/Screen_Shot_2017-08-28_at_16.54.15.png",
+            "details": {
+              "size": 5001,
+              "image": {
+                "width": 83,
+                "height": 56
+              }
+            },
+            "fileName": "Screen Shot 2017-08-28 at 16.54.15.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "2D5IpyfdfuSIOsg4qYooIM",
+        "type": "Asset",
+        "createdAt": "2017-08-28T15:08:28.558Z",
+        "updatedAt": "2017-08-28T15:09:02.095Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 11,
+        "firstPublishedAt": "2017-08-28T15:09:02.074Z",
+        "publishedAt": "2017-08-28T15:09:02.074Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "React Vienna Logo"
+        },
+        "description": {
+          "en-US": "React Vienna Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/2D5IpyfdfuSIOsg4qYooIM/a4232d88ca11552233ca8a8971b34904/global_453449753.jpeg",
+            "details": {
+              "size": 15684,
+              "image": {
+                "width": 180,
+                "height": 180
+              }
+            },
+            "fileName": "global_453449753.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "5YqcRsqWd26ecYq2S68UGA",
+        "type": "Asset",
+        "createdAt": "2017-08-28T15:49:19.024Z",
+        "updatedAt": "2017-08-28T15:49:36.149Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 10,
+        "firstPublishedAt": "2017-08-28T15:49:36.128Z",
+        "publishedAt": "2017-08-28T15:49:36.128Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "NOUS Logo"
+        },
+        "description": {
+          "en-US": "NOUS Logo"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/5YqcRsqWd26ecYq2S68UGA/7d05c157b4729fe0db265adc9dff7bac/nous.jpeg",
+            "details": {
+              "size": 137943,
+              "image": {
+                "width": 600,
+                "height": 411
+              }
+            },
+            "fileName": "nous.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "11FRI4lFvgsU8eq6IyCQAK",
+        "type": "Asset",
+        "createdAt": "2017-08-28T15:59:30.763Z",
+        "updatedAt": "2017-08-28T16:00:17.914Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 50,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 49,
+        "firstPublishedAt": "2017-08-28T16:00:17.892Z",
+        "publishedAt": "2017-08-28T16:00:17.892Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Burgtheater Website, Produktion Detailseite"
+        },
+        "description": {
+          "en-US": "Burgtheater Website, Produktion Detailseite"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/11FRI4lFvgsU8eq6IyCQAK/9dc02823412040032e006629ea2272b1/Screen_Shot_2017-08-28_at_17.54.45.png",
+            "details": {
+              "size": 2418738,
+              "image": {
+                "width": 2009,
+                "height": 1273
+              }
+            },
+            "fileName": "Screen Shot 2017-08-28 at 17.54.45.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "4evy7CBvFSKEACSmE4q2og",
+        "type": "Asset",
+        "createdAt": "2017-08-28T15:59:30.988Z",
+        "updatedAt": "2017-08-28T16:00:29.404Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 8,
+        "firstPublishedAt": "2017-08-28T16:00:29.384Z",
+        "publishedAt": "2017-08-28T16:00:29.384Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Burgtheater Website, Spielplan"
+        },
+        "description": {
+          "en-US": "Burgtheater Website, Spielplan"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/4evy7CBvFSKEACSmE4q2og/6186d1192f6e4edea7302a86f5081c68/Screen_Shot_2017-08-28_at_17.53.29.png",
+            "details": {
+              "size": 249338,
+              "image": {
+                "width": 1798,
+                "height": 1188
+              }
+            },
+            "fileName": "Screen Shot 2017-08-28 at 17.53.29.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zvi026ixizar"
+          }
+        },
+        "id": "44lHuENPnG0SQKqg4oGmka",
+        "type": "Asset",
+        "createdAt": "2017-08-28T15:59:31.103Z",
+        "updatedAt": "2017-08-28T16:00:46.396Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 12,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "0tkgpZrj7t72znBycWNK32"
+          }
+        },
+        "publishedVersion": 11,
+        "firstPublishedAt": "2017-08-28T16:00:46.381Z",
+        "publishedAt": "2017-08-28T16:00:46.381Z"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Burgtheater Website, Abodetailseite"
+        },
+        "description": {
+          "en-US": "Burgtheater Website, Abodetailseite"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.contentful.com/zvi026ixizar/44lHuENPnG0SQKqg4oGmka/100aea04fb08a64e26dcf17abd7b889c/Screen_Shot_2017-08-28_at_17.54.24.png",
+            "details": {
+              "size": 383679,
+              "image": {
+                "width": 1571,
+                "height": 993
+              }
+            },
+            "fileName": "Screen Shot 2017-08-28 at 17.54.24.png",
+            "contentType": "image/png"
+          }
+        }
+      }
+    }
+  ]
+}

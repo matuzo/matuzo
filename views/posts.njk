@@ -1,0 +1,22 @@
+---
+pagination:
+  data: posts.entries
+  size: 1
+  alias: post
+permalink: blog/{{ post.fields.slug['en-US'] }}/index.html
+---
+
+{% extends "base.njk" %}
+
+{% block sitetitle %}
+  {{ post.fields.title['en-US'] }}
+{% endblock %}
+
+{% block pagetitle %}
+  {{ post.fields.title['en-US'] }}
+{% endblock %}
+
+{% block content %}
+  {{ post.fields.teaser['en-US'] }}
+{% endblock %}
+
