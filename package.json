@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eleventy": "^0.2.0"
+    "eleventy-cli": "^0.1.7"
   }
 }
