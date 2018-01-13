@@ -1,16 +1,17 @@
 ---
-title: "Blog"
+title: "Blog Archiv"
+permalink: "blog/archive"
 ---
 
 {% extends "base.njk" %}
 
 {% block content %}
   {# TODO: Reverse #}
-  {% for year, posts in posts | groupby("year") %}
+  {% for year, posts in postsarchive | groupby("year") %}
     <h2>{{ year }}</h2>
     
     <ol>
-      {% for post in posts %}
+      {% for post in postsarchive %}
         <li>
           <a href="blog/{{ post.slug }}">
             {{ post.date }} - {{ post.title }}
@@ -18,9 +19,5 @@ title: "Blog"
         </li>
       {% endfor %}
     </ol>
-
   {% endfor %}
-  <p>
-    <a href="/blog/archive">Blog Archiv</a>
-  </p>
 {% endblock %}
