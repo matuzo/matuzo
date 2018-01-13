@@ -7,16 +7,7 @@ pagination:
 permalink: blog/{{ post.slug }}/index.html
 ---
 
-{% block sitetitle %}
-  {{ post.title }}
-{% endblock %}
-
-{% block pagetitle %}
-  {{ post.title }}
-{% endblock %}
-
 {% block content %}
-POSTS
   {{ post.teaser }}
   {{ post.body }}
 {% endblock %}
