@@ -2,5 +2,6 @@ module.exports = {
   dir: {
     input: 'views'
   },
-  templateFormats: ['njk']
+  templateFormats: ['njk'],
+  markdownTemplateEngine: 'njk'
 };
