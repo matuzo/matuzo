@@ -1,22 +1,23 @@
 ---
+layout: base.njk
 pagination:
-  data: posts.entries
+  data: posts
   size: 1
   alias: post
-permalink: blog/{{ post.fields.slug['en-US'] }}/index.html
+permalink: blog/{{ post.slug }}/index.html
 ---
 
-{% extends "base.njk" %}
-
 {% block sitetitle %}
-  {{ post.fields.title['en-US'] }}
+  {{ post.title }}
 {% endblock %}
 
 {% block pagetitle %}
-  {{ post.fields.title['en-US'] }}
+  {{ post.title }}
 {% endblock %}
 
 {% block content %}
-  {{ post.fields.teaser['en-US'] }}
+POSTS
+  {{ post.teaser }}
+  {{ post.body }}
 {% endblock %}
 

@@ -1,3 +1,7 @@
+---
+title: "Manuel Matuzovic"
+---
+
 {% extends "base.njk" %}
 
 {% block sitetitle %}
@@ -5,31 +9,49 @@
 {% endblock %}
 
 {% block pagetitle %}
-  Manuel Matuzovics Website
+  Manuel Matuzovic
 {% endblock %}
 
 {% block content %}
   <h2>Recent blog posts</h2>
-  <ul>
-    {% for post in posts.entries %}
-      <li>
-        <a href="blog/{{ post.fields.slug['en-US']}}">
-          {{ post.fields.title['en-US']}}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+  {% for year, posts in posts | groupby("year") %}
+    <h3>{{ year }}</h3>
+    
+    <ul>
+      {% for post in posts %}
+        <li>
+          <a href="blog/{{ post.slug }}">
+            {{ post.date }} - {{ post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+
+
+  <h2>Archive</h2>
+  {% for year, posts in postsarchive | groupby("year") %}
+    <h3>{{ year }}</h3>
+    
+    <ul>
+      {% for post in postsarchive %}
+        <li>
+          <a href="blog/{{ post.slug }}">
+            {{ post.date }} - {{ post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
 
   <h2>Pages</h2>
-
   <ul>
-    {% for page in pages.entries %}
+    {% for page in pages %}
       <li>
-        <a href="{{ page.fields.slug['en-US'] }}">
-          {{ page.fields.title['en-US'] }}
+        <a href="{{ page.slug }}">
+          {{ page.title }}
         </a>
       </li>
     {% endfor %}
   </ul>
-
 {% endblock %}

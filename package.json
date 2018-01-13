@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "content":
-      "for file in content/*; do contentful-export --config ${file}; done",
-    "build": "eleventy"
+      "for file in content/*.json; do contentful-export --config ${file}; done; npm run process-content",
+    "build": "eleventy",
+    "process-content": "node content/process-content.js"
   },
   "author": "",
   "license": "ISC",
