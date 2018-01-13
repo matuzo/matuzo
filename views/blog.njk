@@ -1,0 +1,22 @@
+---
+title: "Blog"
+---
+
+{% extends "base.njk" %}
+
+{% block content %}
+  {# TODO: Reverse #}
+  {% for year, posts in posts | groupby("year") %}
+    <h2>{{ year }}</h2>
+    
+    <ol>
+      {% for post in posts %}
+        <li>
+          <a href="blog/{{ post.slug }}">
+            {{ post.date }} - {{ post.title }}
+          </a>
+        </li>
+      {% endfor %}
+    </ol>
+  {% endfor %}
+{% endblock %}
