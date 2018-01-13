@@ -6,3 +6,21 @@
     {{ title }}
   </a>
 </h1>
+
+<nav>
+  <ul>
+    <li>
+      <a href="/">Startseite</a>
+    </li>
+    <li>
+      <a href="/blog">Blog</a>
+    </li>
+    {% for page in pages %}
+      <li>
+        <a href="/{{ page.slug }}">
+          {{ page.title }}
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
