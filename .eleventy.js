@@ -1,8 +1,6 @@
 module.exports = {
   dir: {
-    input: "views",
-    data: "_data",
-    output: "_site"
+    input: 'views'
   },
-  templateFormats: ["njk"]
+  templateFormats: ['njk']
 };
