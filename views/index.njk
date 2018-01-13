@@ -4,52 +4,13 @@ title: "Manuel Matuzovic"
 
 {% extends "base.njk" %}
 
-{% block sitetitle %}
-  Manuel Matuzovic
-{% endblock %}
-
-{% block pagetitle %}
-  Manuel Matuzovic
-{% endblock %}
-
 {% block content %}
   <h2>Recent blog posts</h2>
-  {% for year, posts in posts | groupby("year") %}
-    <h3>{{ year }}</h3>
-    
-    <ul>
-      {% for post in posts %}
-        <li>
-          <a href="blog/{{ post.slug }}">
-            {{ post.date }} - {{ post.title }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endfor %}
-
-
-  <h2>Archive</h2>
-  {% for year, posts in postsarchive | groupby("year") %}
-    <h3>{{ year }}</h3>
-    
-    <ul>
-      {% for post in postsarchive %}
-        <li>
-          <a href="blog/{{ post.slug }}">
-            {{ post.date }} - {{ post.title }}
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endfor %}
-
-  <h2>Pages</h2>
   <ul>
-    {% for page in pages %}
+    {% for post in posts %}
       <li>
-        <a href="{{ page.slug }}">
-          {{ page.title }}
+        <a href="blog/{{ post.slug }}">
+          {{ post.date }} - {{ post.title }}
         </a>
       </li>
     {% endfor %}
