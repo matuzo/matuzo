@@ -5,12 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "content": "for file in content/*; do contentful-export --config ${file}; done",
+    "content":
+      "for file in content/*; do contentful-export --config ${file}; done",
     "build": "eleventy"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eleventy-cli": "^0.1.7"
+    "@11ty/eleventy": "^0.2.6"
   }
 }
