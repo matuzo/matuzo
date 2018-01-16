@@ -10,8 +10,6 @@
   <body>
     {% include 'header.njk' %}
 
-    {{ content }}
-
-    {% block content %}{% endblock %}
+    {{ content | safe }}
   </body>
 </html>

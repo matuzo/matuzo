@@ -5,18 +5,9 @@ pagination:
   size: 1
   alias: post
 permalink: blog/{{ post.slug }}/index.html
+renderData: 
+  title: '{{ post.title }}'
 ---
 
-{% block content %}
-`test``
-
-## test
-
-* test
-* test
-* test
-
-  {{ post.teaser }}
-  {{ post.body }}
-{% endblock %}
-
+{{ post.teaser }}
+{{ post.body }}
